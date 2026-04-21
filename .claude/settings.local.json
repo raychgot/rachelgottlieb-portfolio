@@ -5,7 +5,9 @@
       "Bash(npm install:*)",
       "Bash(npm run:*)",
       "Bash(curl -s http://localhost:5173)",
-      "Bash(curl:*)"
+      "Bash(curl:*)",
+      "Bash(npm run *)",
+      "Read(//tmp/**)"
     ]
   }
 }

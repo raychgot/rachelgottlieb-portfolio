@@ -5,6 +5,7 @@ export default function Nav() {
         <span className="nav-name">Rachel Gottlieb</span>
         <ul className="nav-links">
           <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills</a></li>
           <li><a href="#projects">Projects</a></li>
         </ul>
       </div>
