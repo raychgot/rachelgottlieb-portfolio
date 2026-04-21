@@ -1,16 +1,60 @@
-# React + Vite
+# Rachel Gottlieb – Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Overview
+This is my personal portfolio website showcasing projects I built in my Low and No Code course. The focus of this portfolio is demonstrating how I used AI tools like Claude to assist in development while still understanding, refining, and improving the final code.
 
-Currently, two official plugins are available:
+The site includes selected projects with descriptions, tech stacks, and reflections on what I learned and what I would improve.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+---
 
-## React Compiler
+## Live Site
+[View Portfolio](https://dig4503-rachgottlieb-portfolio.netlify.app/)
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## Projects
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### Zero Trace
+**Live Site:** https://dig4503-rachgottlieb-zerotrace-search.netlify.app/  
+**Tech Stack:** HTML, CSS, Claude Netlify  
+
+**Description:**  
+Zero Trace is a multi-page static website for a fictional 100% gluten-free restaurant. I built it using HTML and CSS, with Claude helping to generate the initial structure, content, and styling. I then refined the layout and content through multiple prompts.
+
+---
+
+### Recipe Vault
+**Live Site:** https://dig4503-rachgottlieb-recipevault.netlify.app/  
+**Tech Stack:** React, Vite, React Router, Supabase, CSS, Netlify, Ollama  
+
+**Description:**  
+Recipe Vault is a full stack recipe management application where users can create, edit, and save recipes. It includes authentication, a database, and AI-powered features that generate recipe descriptions and tags using Ollama running locally.
+
+---
+
+### Study Mode
+**Live Site:** https://dig5403-rachgottlieb-studymode.netlify.app/  
+**Tech Stack:** React, Vite, JavaScript, CSS, Netlify  
+
+**Description:**  
+Study Mode is a simple productivity web app that allows users to manage tasks and stay focused using a built-in timer. Users can add tasks, mark them as complete, and track their progress while using a focus timer, as well as browse through a selection of music they can listen to while studying. The project demonstrates building an interactive React application with clean UI and state management.
+
+---
+
+## What I Learned
+Through these projects, I learned how to:
+- Use AI tools like Claude to assist with development
+- Break down problems and guide AI with better prompts
+- Debug and refine AI-generated code
+- Build and deploy full web applications
+
+This portfolio reflects both my technical skills and my ability to effectively work with AI in a development workflow.
+
+---
+
+## Running Locally
+To run this project locally:
+
+```bash
+npm install
+npm run dev
