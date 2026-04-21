@@ -1,11 +1,11 @@
 export default function ProjectCard({ project }) {
-  const { title, description, tech, link, linkLabel, reflection, note, image } = project
+  const { title, description, tech, link, linkLabel, reflection, note, image, imageContain } = project
 
   return (
     <article className="project-card">
       {image && (
         <div className="card-image-wrap">
-          <img src={image} alt={`${title} preview`} className="card-image" />
+          <img src={image} alt={`${title} preview`} className={`card-image${imageContain ? ' card-image--contain' : ''}`} />
         </div>
       )}
       <div className="card-header">

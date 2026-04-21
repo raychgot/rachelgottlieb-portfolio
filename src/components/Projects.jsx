@@ -1,6 +1,7 @@
 import ProjectCard from './ProjectCard'
 import zerotraceImg from '../assets/zerotrace.png'
 import recipevaultImg from '../assets/recipevault.png'
+import studymodeImg from '../assets/studymode.png'
 
 const projects = [
   {
@@ -25,6 +26,18 @@ const projects = [
     reflection:
       'If I continued this project, I would improve performance and make the AI features faster and more reliable. I would also improve the UI to make it more polished and spend more time fully understanding and refining the code instead of relying on AI for some implementations.',
     note: 'The AI features in Recipe Vault run locally using Ollama, so they do not work on the deployed version unless Ollama is installed.',
+  },
+  {
+    title: 'Study Mode',
+    description:
+      'Study Mode is a simple productivity web app that allows users to manage tasks and stay focused using a built-in timer. Users can add tasks, mark them as complete, and track their progress while using a focus timer, as well as browse through a selection of music they can listen to while studying. The project demonstrates building an interactive React application with clean UI and state management.',
+    tech: ['React', 'Vite', 'JavaScript', 'CSS', 'Netlify'],
+    image: studymodeImg,
+    imageContain: true,
+    link: 'https://dig5403-rachgottlieb-studymode.netlify.app/',
+    linkLabel: 'View Site',
+    reflection:
+      'If I continued this project, I would improve the timer by adding more customization options and better visuals during countdowns. I would enhance the UI with more advanced styling and animations to make the experience more engaging. I would also consider adding user accounts or cloud storage so tasks persist across devices.',
   },
 ]
 

@@ -313,6 +313,10 @@ section#skills::before {
   transition: transform 0.4s ease;
 }
 
+.card-image--contain {
+  object-fit: contain;
+}
+
 .project-card:hover .card-image {
   transform: scale(1.02);
 }
